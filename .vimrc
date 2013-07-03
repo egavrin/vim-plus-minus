@@ -58,6 +58,7 @@ nnoremap <F4> :q!<CR>
 
 " Color settings
 set t_Co=256
+set background=dark
 
 " Colorscheme
 if &t_Co >= 256 || has("gui_running")
