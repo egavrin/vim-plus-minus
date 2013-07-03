@@ -1,4 +1,4 @@
 vim-plus-minus
 ==============
 
-Vim config for C/C++ developments
+Vim config for C/C++ development
