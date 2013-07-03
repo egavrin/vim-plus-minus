@@ -54,9 +54,12 @@ nnoremap <F2> :set nonumber!<CR>
 " Quit on <F4>. For mc users
 nnoremap <F4> :q!<CR>
 
+" Color settings
+set t_Co=256
+
 " Colorscheme
 if &t_Co >= 256 || has("gui_running")
-   colorscheme mustang
+   colorscheme elflord
 endif
 
 if &t_Co > 2 || has("gui_running")
@@ -66,7 +69,7 @@ endif
 
 " Highlight whitespaces
 set list
-set listchars=tab:>.,trail:.,extends:#,nbsp:.
+set listchars=tab:>-,trail:.,extends:#,nbsp:.
 
 " Enable mouse. For scrolling. Sorry.
 set mouse=a
@@ -81,3 +84,5 @@ if has("multi_byte")
   "setglobal bomb
   set fileencodings=ucs-bom,utf-8,latin1
 endif
+
+
