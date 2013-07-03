@@ -53,6 +53,8 @@ set number
 " <F2> to show/hide line numbers
 nnoremap <F2> :set nonumber!<CR>
 
+set pastetoggle=<F3>
+
 " Quit on <F4>. For mc users
 nnoremap <F4> :q!<CR>
 
