@@ -4,7 +4,7 @@ set nocompatible
 set nobackup
 set noswapfile
 
-" Very optional
+" Shorten your vim shorcuts
 nnoremap ; :
 
 " It hides buffers instead of closing them.
