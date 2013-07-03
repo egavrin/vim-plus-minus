@@ -3,9 +3,10 @@ vim-plus-minus
 
 Vim config for C/C++ development
 
-Installation
-+++++++++++++++++++++++++++++++
+###Installation
 Create symlinks to .vimrc and .vim directory:
 
+```shell
 ln -s ~/vim-plus-minus/.vimrc ~/.vimrc
-ln -s ~/vim-plus-minus/.vim ~/.vim
+ln -s ~/vim-plus-minus/.vim   ~/.vim
+```
