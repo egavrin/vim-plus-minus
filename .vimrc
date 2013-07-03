@@ -1,6 +1,8 @@
 " This must be first, because it changes other options as side effect
 set nocompatible
 
+execute pathogen#infect()
+
 set nobackup
 set noswapfile
 
