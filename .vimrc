@@ -38,6 +38,11 @@ set visualbell           " don't beep
 set noerrorbells         " don't beep
 
 
+" GUI options
+set guioptions-=m  "remove menu bar
+set guioptions-=T  "remove toolbar
+set guioptions-=r  "remove right-hand scroll bar
+
 " Show line numbers
 set number
 
@@ -64,4 +69,13 @@ set listchars=tab:>.,trail:.,extends:#,nbsp:.
 " Enable mouse. For scrolling. Sorry.
 set mouse=a
 
-
+" Unicode support http://vim.wikia.com/wiki/Working_with_Unicode
+if has("multi_byte")
+  if &termencoding == ""
+    let &termencoding = &encoding
+  endif
+  set encoding=utf-8
+  setglobal fileencoding=utf-8
+  "setglobal bomb
+  set fileencodings=ucs-bom,utf-8,latin1
+endif
