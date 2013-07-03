@@ -1,3 +1,4 @@
+" Inspired by http://nvie.com/posts/how-i-boosted-my-vim/
 " This must be first, because it changes other options as side effect
 set nocompatible
 
@@ -14,7 +15,7 @@ set hidden
 
 
 set nowrap        " don't wrap lines
-set tabstop=2     " a tab is four spaces
+set tabstop=2     " a tab is two spaces
 set shiftwidth=2  " number of spaces to use for autoindenting
 set backspace=indent,eol,start
                   " allow backspacing over everything in insert mode
