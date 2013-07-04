@@ -37,7 +37,7 @@ set undolevels=1000      " use many muchos levels of undo
 set wildignore=*.swp,*.bak,*.pyc,*.class
 set title                " change the terminal's title
 
-set visualbell           " don't beep
+"set visualbell           " don't beep
 set noerrorbells         " don't beep
 
 set laststatus=2   " display status bar always
