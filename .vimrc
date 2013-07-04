@@ -2,6 +2,8 @@
 " This must be first, because it changes other options as side effect
 set nocompatible
 
+set tags+=tags;/
+
 execute pathogen#infect()
 
 set nobackup
