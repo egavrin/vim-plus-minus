@@ -22,7 +22,7 @@ set expandtab     " insert space characters whenever the tab key is pressed
 
 set backspace=indent,eol,start
                   " allow backspacing over everything in insert mode
-"set autoindent    " always set autoindenting on
+set autoindent    " always set autoindenting on
 set copyindent    " copy the previous indentation on autoindenting
 set shiftround    " use multiple of shiftwidth when indenting with '<' and '>'
 set showmatch     " set show matching parenthesis
