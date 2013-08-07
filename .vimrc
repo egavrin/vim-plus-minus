@@ -87,7 +87,7 @@ set list
 set listchars=tab:>-,trail:.,extends:#,nbsp:.
 
 " Enable mouse. For scrolling. Sorry.
-set mouse=a
+"set mouse=a
 
 " Unicode support http://vim.wikia.com/wiki/Working_with_Unicode
 if has("multi_byte")
