@@ -108,6 +108,10 @@ endif
 "clang_autocomplete options
 set conceallevel=2
 set concealcursor=vin
+set completeopt=menuone,menu
+" Complete shortcuts
+imap <C-Space> <C-X><C-I>
+imap <Nul> <C-X><C-I>
 let g:clang_use_library=1
 let g:clang_library_path='/usr/lib/llvm-3.9/lib'
 let g:clang_complete_auto=1
