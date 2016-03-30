@@ -4,8 +4,6 @@ set nocompatible
 
 set tags+=tags;/
 
-execute pathogen#infect()
-
 set nobackup
 set noswapfile
 
@@ -107,4 +105,18 @@ if has("multi_byte")
   set fileencodings=ucs-bom,utf-8,latin1
 endif
 
-
+"clang_autocomplete options
+set conceallevel=2
+set concealcursor=vin
+let g:clang_use_library=1
+let g:clang_library_path='/usr/lib/llvm-3.9/lib'
+let g:clang_complete_auto=1
+let g:clang_periodic_quickfix=1
+let g:clang_snippets=1
+let g:clang_conceal_snippets=1
+let g:clang_snippets_engine='clang_complete'
+" Show clang errors in the quickfix window
+"let g:clang_complete_copen = 1
+set completeopt=longest,menuone,preview
+let g:clang_c_options = '-std=gnu11'
+let g:clang_cpp_options = '-std=c++11 -stdlib=libc++'
